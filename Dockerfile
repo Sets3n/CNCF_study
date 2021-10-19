@@ -1,6 +1,6 @@
 from golang:alpine
 
-EVN GO111MODULE=no\
+ENV GO111MODULE=auto\
     CGO_ENABLED=0\
     GOOS=linux\
     GOARCH=amd64\
